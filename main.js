@@ -165,7 +165,7 @@
         // Get latitude and longitude of location.
         // Use fetch and fetch city lat and lon values !
 
-        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName.value.toLowerCase()}&limit=5&appid=ebcfc98f1f68b939d3df858675274e9a`)
+        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName.value.toLowerCase()}&limit=5&appid=`)
             .then(function (res) {
                 return res.json()
             })
