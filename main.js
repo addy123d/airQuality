@@ -90,7 +90,7 @@
 
 
     function airQuality(latitude, longitude) {
-        fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=ebcfc98f1f68b939d3df858675274e9a`)
+        fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=`)
             .then(function (res) {
                 return res.json();
             })
